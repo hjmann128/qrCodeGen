@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+body{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+
+  .generate {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .results {
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    padding: 8px;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .results button {
+   
+    
+    border-radius: 4px;
+    text-decoration: none;
+    
+  }
+
+  #download {
+    background: #FB0D84;
+    cursor: pointer; 
+  }
+
+  .buttons {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  button {
+    margin: 5px;
+  }
+
+  input {
+    width: 300px;
+    max-width: 200%;
+  }
+
+  .submit {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  #newQr {
+    background-color:#219FFF;
+    color: black;
+    
+  }
