@@ -5,6 +5,8 @@ body{
     margin: 20px auto;
     padding: 0 20px;
     font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
   
   }
 
@@ -23,27 +25,26 @@ body{
 
   .results {
     display: flex;
-    width: 100%;
     margin: 10px auto;
-    padding: 8px;
+    padding: 30px;
     justify-content: space-evenly;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    border: black solid 2px;
+    border-radius: 5%;
+    width: fit-content;
   }
 
-  .results button {
-   
-    
-    border-radius: 4px;
-    text-decoration: none;
-    
-  }
-
-  #download {
+  #down {
     background: #FB0D84;
     cursor: pointer; 
+    font-size: 1.3em;
+    padding: 8px;
+    border-radius: 10%;
+    text-decoration: none;
+    margin-top: 60px ;
   }
 
   .buttons {
@@ -64,15 +65,22 @@ body{
 
   .submit {
     cursor: pointer;
+    
   }
 
   a {
     text-decoration: none;
+    color: black;
 
   }
 
   #newQr {
-    background-color:#219FFF;
+    
     color: black;
+    margin: 30px auto;
+    border-radius: 10%;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 8px;
     
   }
